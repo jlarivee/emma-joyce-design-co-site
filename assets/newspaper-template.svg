@@ -1,16 +1,16 @@
 <svg width="800" height="960" viewBox="0 0 800 960" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="960" rx="44" fill="#F8F1E7"/>
-  <rect x="102" y="86" width="596" height="788" rx="22" fill="#FFFDF9" stroke="#D9C7B5" stroke-width="6"/>
-  <text x="400" y="170" text-anchor="middle" fill="#1B1530" font-size="28" font-family="Arial, sans-serif" letter-spacing="8">THE BRIDESMAID TIMES</text>
-  <line x1="142" y1="206" x2="658" y2="206" stroke="#1B1530" stroke-width="4"/>
-  <text x="146" y="272" fill="#1B1530" font-size="62" font-family="Georgia, serif">Extra! Extra!</text>
-  <text x="146" y="342" fill="#C5574B" font-size="52" font-family="Georgia, serif">Youre in the bridal party</text>
-  <rect x="146" y="388" width="228" height="250" rx="10" fill="#F5E2D6"/>
-  <rect x="400" y="388" width="258" height="40" rx="8" fill="#EFE5DA"/>
-  <rect x="400" y="448" width="258" height="18" rx="9" fill="#E8DDD0"/>
-  <rect x="400" y="486" width="258" height="18" rx="9" fill="#E8DDD0"/>
-  <rect x="400" y="524" width="258" height="18" rx="9" fill="#E8DDD0"/>
-  <rect x="146" y="672" width="512" height="18" rx="9" fill="#E8DDD0"/>
-  <rect x="146" y="710" width="512" height="18" rx="9" fill="#E8DDD0"/>
-  <rect x="146" y="748" width="380" height="18" rx="9" fill="#E8DDD0"/>
+  <rect width="800" height="960" rx="44" fill="#F7FCFB"/>
+  <rect x="102" y="86" width="596" height="788" rx="22" fill="#FFFFFF" stroke="#BDD5DF" stroke-width="6"/>
+  <text x="400" y="170" text-anchor="middle" fill="#213849" font-size="28" font-family="Arial, sans-serif" letter-spacing="8">THE BRIDESMAID TIMES</text>
+  <line x1="142" y1="206" x2="658" y2="206" stroke="#213849" stroke-width="4"/>
+  <text x="146" y="272" fill="#213849" font-size="62" font-family="Georgia, serif">Extra! Extra!</text>
+  <text x="146" y="342" fill="#4F8099" font-size="52" font-family="Georgia, serif">Youre in the bridal party</text>
+  <rect x="146" y="388" width="228" height="250" rx="10" fill="#DDEFE9"/>
+  <rect x="400" y="388" width="258" height="40" rx="8" fill="#EAF3F7"/>
+  <rect x="400" y="448" width="258" height="18" rx="9" fill="#DCE9EF"/>
+  <rect x="400" y="486" width="258" height="18" rx="9" fill="#DCE9EF"/>
+  <rect x="400" y="524" width="258" height="18" rx="9" fill="#DCE9EF"/>
+  <rect x="146" y="672" width="512" height="18" rx="9" fill="#DCE9EF"/>
+  <rect x="146" y="710" width="512" height="18" rx="9" fill="#DCE9EF"/>
+  <rect x="146" y="748" width="380" height="18" rx="9" fill="#DCE9EF"/>
 </svg>

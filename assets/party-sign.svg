@@ -1,12 +1,12 @@
 <svg width="800" height="960" viewBox="0 0 800 960" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="960" rx="44" fill="#FFF8F1"/>
-  <circle cx="160" cy="152" r="110" fill="#F6D7CF"/>
-  <circle cx="660" cy="786" r="126" fill="#E8D7BC"/>
-  <rect x="110" y="140" width="580" height="680" rx="30" fill="#FFFDF9" stroke="#F0D3BF" stroke-width="10"/>
-  <text x="400" y="270" text-anchor="middle" fill="#C5574B" font-size="30" font-family="Arial, sans-serif" letter-spacing="8">BACHELORETTE WEEKEND</text>
-  <text x="400" y="384" text-anchor="middle" fill="#201730" font-size="78" font-family="Georgia, serif">Drinks</text>
-  <text x="400" y="466" text-anchor="middle" fill="#201730" font-size="78" font-family="Georgia, serif">Dancing</text>
-  <text x="400" y="548" text-anchor="middle" fill="#201730" font-size="78" font-family="Georgia, serif">Details</text>
-  <rect x="220" y="628" width="360" height="70" rx="35" fill="#F6E7D8"/>
-  <text x="400" y="672" text-anchor="middle" fill="#8B6F58" font-size="28" font-family="Arial, sans-serif" letter-spacing="6">CUSTOM COLORS</text>
+  <rect width="800" height="960" rx="44" fill="#F8FDFC"/>
+  <circle cx="160" cy="152" r="110" fill="#D7E8F0"/>
+  <circle cx="660" cy="786" r="126" fill="#DCEFE7"/>
+  <rect x="110" y="140" width="580" height="680" rx="30" fill="#FFFFFF" stroke="#B8D4E3" stroke-width="10"/>
+  <text x="400" y="270" text-anchor="middle" fill="#4F8099" font-size="30" font-family="Arial, sans-serif" letter-spacing="8">BACHELORETTE WEEKEND</text>
+  <text x="400" y="384" text-anchor="middle" fill="#213849" font-size="78" font-family="Georgia, serif">Drinks</text>
+  <text x="400" y="466" text-anchor="middle" fill="#213849" font-size="78" font-family="Georgia, serif">Dancing</text>
+  <text x="400" y="548" text-anchor="middle" fill="#213849" font-size="78" font-family="Georgia, serif">Details</text>
+  <rect x="220" y="628" width="360" height="70" rx="35" fill="#E6F3EE"/>
+  <text x="400" y="672" text-anchor="middle" fill="#6B9883" font-size="28" font-family="Arial, sans-serif" letter-spacing="6">CUSTOM COLORS</text>
 </svg>
