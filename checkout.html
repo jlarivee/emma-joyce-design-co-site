@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout | Emma Joyce Design Co.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="assets/emma-joyce-logo.svg" alt="Emma Joyce Design Co." />
+          <span class="sr-only">Emma Joyce Design Co.</span>
+        </a>
+        <nav class="site-nav">
+          <a href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Shop on Etsy</a>
+          <a href="custom-orders.html">Custom Orders</a>
+          <a href="about.html">About</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+        <button class="cart-button" type="button" data-open-cart>
+          Cart <span data-cart-count>0</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="page-hero">
+          <p class="eyebrow">Checkout</p>
+          <h1>Review selections and gather client details.</h1>
+          <p class="muted">
+            This page is the bridge between browsing and a future Stripe or Etsy fulfillment flow.
+          </p>
+        </section>
+
+        <section class="checkout-shell">
+          <div class="checkout-summary">
+            <p id="checkoutEmpty" class="empty-state">Your cart is empty. Add something from the shop to continue.</p>
+            <div id="checkoutItems"></div>
+            <div class="checkout-total">
+              <span>Estimated total</span>
+              <strong id="checkoutTotal">$0</strong>
+            </div>
+          </div>
+
+          <div class="notice">
+            Checkout scaffold: this can route to Stripe, Shopify, or Etsy depending on how you want the
+            real purchase flow to work.
+          </div>
+
+          <form data-checkout-form>
+            <div class="form-grid">
+              <label>
+                Contact Name
+                <input type="text" placeholder="Full name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="name@email.com" required />
+              </label>
+              <label>
+                Instagram or Phone
+                <input type="text" placeholder="@handle or phone number" />
+              </label>
+              <label>
+                Event Date
+                <input type="date" />
+              </label>
+            </div>
+            <label>
+              Final Notes
+              <textarea rows="5" placeholder="Anything Emma should know before confirming the order?"></textarea>
+            </label>
+            <div class="hero-actions">
+              <button class="primary-link" type="submit">Submit Order Request</button>
+              <a class="secondary-link" href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Continue On Etsy</a>
+            </div>
+          </form>
+
+          <div class="notice" id="checkoutConfirmation" hidden>
+            Request captured in the interface. The next step would be wiring this button to Stripe or a
+            backend order endpoint.
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Emma Joyce Design Co. storefront concept</p>
+        <a href="shop.html">Browse site collection</a>
+      </footer>
+    </div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Cart</p>
+          <h2>Your Selections</h2>
+        </div>
+        <button id="closeCartButton" type="button">Close</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="checkout-total">
+        <span>Estimated total</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+    </aside>
+
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

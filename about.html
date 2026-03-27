@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Emma Joyce Design Co.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="assets/emma-joyce-logo.svg" alt="Emma Joyce Design Co." />
+          <span class="sr-only">Emma Joyce Design Co.</span>
+        </a>
+        <nav class="site-nav">
+          <a href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Shop on Etsy</a>
+          <a href="custom-orders.html">Custom Orders</a>
+          <a href="about.html">About</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+        <button class="cart-button" type="button" data-open-cart>
+          Cart <span data-cart-count>0</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="page-hero">
+          <p class="eyebrow">About</p>
+          <h1>A warmer, more personal home for the brand than a marketplace page alone.</h1>
+          <p class="muted">
+            This page gives Emma Joyce Design Co. space to explain the style, the process, and what
+            makes the products feel custom.
+          </p>
+        </section>
+
+        <section class="story-grid">
+          <article class="story-card">
+            <p class="eyebrow">Brand Direction</p>
+            <h2>Editorial, celebratory, and custom-feeling.</h2>
+            <p>
+              The visual system uses soft creams, warm coral, and elegant serif typography to support
+              weddings, bridal showers, and bachelorette weekends without feeling overly formal or
+              generic.
+            </p>
+          </article>
+          <article class="note-card">
+            <p class="eyebrow">What This Site Does</p>
+            <p>
+              It gives shoppers a stronger browsing experience, provides room for storytelling, and
+              captures personalization notes earlier in the ordering process.
+            </p>
+          </article>
+        </section>
+
+        <section class="info-grid">
+          <article class="info-panel">
+            <p class="eyebrow">Good Fit</p>
+            <h3>Wedding weekends</h3>
+            <p>Mirror decals, itinerary cards, welcome signage, and details that connect the whole event.</p>
+          </article>
+          <article class="info-panel">
+            <p class="eyebrow">Good Fit</p>
+            <h3>Bridal party moments</h3>
+            <p>Proposal templates, welcome gifts, and playful reveal pieces with a personal touch.</p>
+          </article>
+          <article class="info-panel">
+            <p class="eyebrow">Good Fit</p>
+            <h3>Showers and parties</h3>
+            <p>Entry signage, bar menus, statement graphics, and polished printables for celebration spaces.</p>
+          </article>
+          <article class="info-panel">
+            <p class="eyebrow">Next Upgrade</p>
+            <h3>Real payment processing</h3>
+            <p>Stripe or Shopify checkout can be layered in next without redoing the front-end structure.</p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Emma Joyce Design Co. storefront concept</p>
+        <a href="shop.html">Browse site collection</a>
+      </footer>
+    </div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Cart</p>
+          <h2>Your Selections</h2>
+        </div>
+        <button id="closeCartButton" type="button">Close</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="checkout-total">
+        <span>Estimated total</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+      <a class="primary-link" href="checkout.html">Go To Checkout</a>
+    </aside>
+
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

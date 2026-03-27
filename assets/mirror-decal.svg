@@ -1,0 +1,11 @@
+<svg width="800" height="960" viewBox="0 0 800 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="960" rx="44" fill="#FFF6EE"/>
+  <circle cx="655" cy="162" r="104" fill="#FFD9C5"/>
+  <circle cx="157" cy="782" r="174" fill="#F6E6D7"/>
+  <rect x="136" y="126" width="528" height="708" rx="264" fill="#F8E8DA" stroke="#F2CBB2" stroke-width="14"/>
+  <rect x="175" y="165" width="450" height="630" rx="225" fill="#FFFDF8"/>
+  <text x="400" y="364" text-anchor="middle" fill="#C5574B" font-size="34" font-family="Georgia, serif" letter-spacing="6">WELCOME TO THE</text>
+  <text x="400" y="454" text-anchor="middle" fill="#201730" font-size="78" font-family="Georgia, serif">Harrison Wedding</text>
+  <text x="400" y="532" text-anchor="middle" fill="#201730" font-size="78" font-family="Georgia, serif">Weekend</text>
+  <text x="400" y="620" text-anchor="middle" fill="#A68A6E" font-size="30" font-family="Arial, sans-serif" letter-spacing="10">JUNE 2026</text>
+</svg>

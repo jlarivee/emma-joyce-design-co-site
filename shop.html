@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | Emma Joyce Design Co.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="assets/emma-joyce-logo.svg" alt="Emma Joyce Design Co." />
+          <span class="sr-only">Emma Joyce Design Co.</span>
+        </a>
+        <nav class="site-nav">
+          <a href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Shop on Etsy</a>
+          <a href="custom-orders.html">Custom Orders</a>
+          <a href="about.html">About</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+        <button class="cart-button" type="button" data-open-cart>
+          Cart <span data-cart-count>0</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="page-hero">
+          <p class="eyebrow">Shop</p>
+          <h1>Browse the collection by event and product type.</h1>
+          <p class="muted">
+            Use filters, search, and quick view to build a cart with custom notes attached to each
+            product.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Open Etsy Shop</a>
+            <a class="secondary-link" href="checkout.html">Use Site Cart</a>
+          </div>
+        </section>
+        <section>
+          <div class="section-heading">
+            <div class="shop-tools">
+              <label>
+                <span class="sr-only">Search products</span>
+                <input
+                  id="searchInput"
+                  class="search-input"
+                  type="search"
+                  placeholder="Search wedding, shower, bachelorette, or product name"
+                />
+              </label>
+              <div class="filter-row" id="filterRow"></div>
+            </div>
+          </div>
+          <div class="product-grid" id="shopGrid"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Need something one-of-one?</p>
+        <a href="custom-orders.html">Start a custom project</a>
+      </footer>
+    </div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Cart</p>
+          <h2>Your Selections</h2>
+        </div>
+        <button id="closeCartButton" type="button">Close</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="checkout-total">
+        <span>Estimated total</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+      <a class="primary-link" href="checkout.html">Go To Checkout</a>
+    </aside>
+
+    <dialog class="product-modal" id="productModal">
+      <button class="modal-close" id="closeModalButton" type="button">Close</button>
+      <div class="modal-layout" id="modalLayout"></div>
+    </dialog>
+
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

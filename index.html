@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emma Joyce Design Co.</title>
+    <meta
+      name="description"
+      content="Custom wedding mirror decals, bridal party templates, and celebratory event graphics from Emma Joyce Design Co."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="assets/emma-joyce-logo.svg" alt="Emma Joyce Design Co." />
+          <span class="sr-only">Emma Joyce Design Co.</span>
+        </a>
+        <nav class="site-nav">
+          <a href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Shop on Etsy</a>
+          <a href="custom-orders.html">Custom Orders</a>
+          <a href="about.html">About</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+        <button class="cart-button" type="button" data-open-cart>
+          Cart <span data-cart-count>0</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Designed around the Etsy shop wedding and party aesthetic</p>
+            <h1>Custom event details that make the whole weekend feel thought through.</h1>
+            <p>
+              This site is built as a polished storefront for Emma Joyce Design Co. with a multi-page
+              experience, personalized product flow, and a checkout-ready handoff while the Etsy shop
+              stays active.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-link" href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Shop on Etsy</a>
+              <a class="secondary-link" href="shop.html">Browse Site Collection</a>
+              <a class="secondary-link" href="custom-orders.html">Start A Custom Order</a>
+            </div>
+            <div class="hero-pills">
+              <span class="pill">Made for bridal events and milestone parties</span>
+              <span class="pill">Personalization notes collected right on the site</span>
+              <span class="pill">Keep Etsy as the main purchase path</span>
+            </div>
+          </div>
+          <div class="hero-stage editorial-stage" aria-hidden="true">
+            <div class="stage-glow glow-one"></div>
+            <div class="stage-glow glow-two"></div>
+            <div class="stage-panel"></div>
+            <article class="floating-note note-top">
+              <span>Mirror Decals</span>
+              <strong>Custom Names + Event Date</strong>
+            </article>
+            <article class="floating-note note-left">
+              <span>Digital Templates</span>
+              <strong>Bridesmaid Reveal Newspaper</strong>
+            </article>
+            <article class="floating-note note-bottom">
+              <span>Bachelorette Details</span>
+              <strong>Fun, photo-ready signage</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="intro-grid">
+          <article class="intro-card">
+            <p class="eyebrow">Mirror Decals</p>
+            <h3>For bridal suites and welcome moments</h3>
+            <p>Large-format details that instantly create a photo-worthy arrival experience.</p>
+          </article>
+          <article class="intro-card">
+            <p class="eyebrow">Editable Templates</p>
+            <h3>Digital products with an editorial feel</h3>
+            <p>Perfect for proposal boxes, itinerary cards, and wedding weekend paper goods.</p>
+          </article>
+          <article class="intro-card">
+            <p class="eyebrow">Party Graphics</p>
+            <h3>Playful signage for bridal showers and bachelorettes</h3>
+            <p>Bright, customized pieces that support the whole tone of the event.</p>
+          </article>
+        </section>
+
+        <section>
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Featured Products</p>
+              <h2>Best sellers and easy launch favorites</h2>
+            </div>
+            <a class="secondary-link" href="shop.html">Browse Site Collection</a>
+          </div>
+          <div class="product-grid" data-product-grid data-limit="3"></div>
+        </section>
+
+        <section class="story-grid">
+          <article class="story-card">
+            <p class="eyebrow">What Changed</p>
+            <h2>More than a landing page</h2>
+            <p>
+              The site now includes a homepage, a dedicated shop page, a custom order page, an about
+              page, and a checkout page. It keeps the warm bridal-event style from the Etsy brand
+              while giving Emma a more premium home base than a marketplace listing alone.
+            </p>
+          </article>
+          <article class="note-card">
+            <p class="eyebrow">About The Images</p>
+            <p>
+              I could not fetch live Etsy images from this environment because network resolution to
+              Etsy is blocked here, so I created local branded artwork placeholders inspired by the
+              product types. We can swap in real listing photos as soon as you share them or once
+              network access is available.
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Emma Joyce Design Co. storefront concept</p>
+        <div>
+          <a href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Shop on Etsy</a>
+          <a href="about.html">About</a>
+          <a href="checkout.html">Checkout</a>
+        </div>
+      </footer>
+    </div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Cart</p>
+          <h2>Your Selections</h2>
+        </div>
+        <button id="closeCartButton" type="button">Close</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="checkout-total">
+        <span>Estimated total</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+      <a class="primary-link" href="checkout.html">Go To Checkout</a>
+      <p class="cart-note">
+        Current flow keeps the Etsy shop active while this site collects selections and custom
+        details.
+      </p>
+    </aside>
+
+    <dialog class="product-modal" id="productModal">
+      <button class="modal-close" id="closeModalButton" type="button">Close</button>
+      <div class="modal-layout" id="modalLayout"></div>
+    </dialog>
+
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

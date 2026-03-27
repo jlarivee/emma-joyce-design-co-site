@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Orders | Emma Joyce Design Co.</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="assets/emma-joyce-logo.svg" alt="Emma Joyce Design Co." />
+          <span class="sr-only">Emma Joyce Design Co.</span>
+        </a>
+        <nav class="site-nav">
+          <a href="https://www.etsy.com/shop/EmmaJoyceDesignCo?ref=yr_purchases" target="_blank" rel="noreferrer">Shop on Etsy</a>
+          <a href="custom-orders.html">Custom Orders</a>
+          <a href="about.html">About</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+        <button class="cart-button" type="button" data-open-cart>
+          Cart <span data-cart-count>0</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="page-hero">
+          <p class="eyebrow">Custom Orders</p>
+          <h1>Start the projects that do not fit neatly into one listing.</h1>
+          <p class="muted">
+            This page gives Emma a place to capture event context, timeline, and personalization before
+            quoting the work.
+          </p>
+        </section>
+
+        <section class="checkout-shell">
+          <div class="notice">
+            Suggested use: pair this with email, DMs, or a later CRM workflow. For now it acts as a
+            polished intake experience.
+          </div>
+          <form data-checkout-form>
+            <div class="form-grid">
+              <label>
+                Client Name
+                <input type="text" placeholder="Full name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" placeholder="name@email.com" required />
+              </label>
+              <label>
+                Event Type
+                <select>
+                  <option>Wedding</option>
+                  <option>Bachelorette</option>
+                  <option>Bridal Shower</option>
+                  <option>Other Celebration</option>
+                </select>
+              </label>
+              <label>
+                Event Date
+                <input type="date" />
+              </label>
+            </div>
+            <label>
+              Project Details
+              <textarea rows="6" placeholder="What do you need designed? Include wording, colors, quantities, and deadlines."></textarea>
+            </label>
+            <div class="hero-actions">
+              <button class="primary-link" type="submit">Send Inquiry</button>
+              <a class="secondary-link" href="shop.html">Browse Ready-Made Items</a>
+            </div>
+          </form>
+          <div class="notice" id="checkoutConfirmation" hidden>
+            Inquiry captured in the interface. The next production step would be connecting this form to
+            email, Airtable, or a backend endpoint.
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Custom work deserves a clear intake flow.</p>
+        <a href="checkout.html">Review cart</a>
+      </footer>
+    </div>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Cart</p>
+          <h2>Your Selections</h2>
+        </div>
+        <button id="closeCartButton" type="button">Close</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="checkout-total">
+        <span>Estimated total</span>
+        <strong id="cartTotal">$0</strong>
+      </div>
+      <a class="primary-link" href="checkout.html">Go To Checkout</a>
+    </aside>
+
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
